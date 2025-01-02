@@ -9,6 +9,13 @@ This Python script uses the OpenWeatherMap API to check the weather forecast for
 - Sends an SMS alert to notify you about the rain using Twilio.
 - Utilizes environment variables to securely manage API keys and sensitive information.
 
+## Technologies Used
+
+- **Python**: Core programming language.
+- **Twilio**: For sending SMS notifications.
+- **OpenWeatherMap API**: For weather forecast data.
+- **Requests**: For making HTTP requests.
+
 ## Prerequisites
 
 Before running the script, ensure the following:
