@@ -18,12 +18,11 @@ This Python script uses the OpenWeatherMap API to check the weather forecast for
 
 ## Prerequisites
 
-Before running the script, ensure the following:
-
-1. **Python Libraries**:
-   - `requests`
-   - `twilio`
-   
-   Install them using:
+1. Python 3.6 or higher.
+2. An account with [OpenWeatherMap](https://openweathermap.org/) to obtain an API key.
+3. A Twilio account for sending SMS.
+4. Installed dependencies:
    ```bash
    pip install requests twilio
+   ```
+   
