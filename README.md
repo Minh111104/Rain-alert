@@ -1,4 +1,4 @@
-# Weather Alert SMS Notification
+# Weather Alert SMS Notification 🌧️
 
 This Python script uses the OpenWeatherMap API to check the weather forecast for the next 12 hours and sends an SMS notification if rain is expected. The SMS is sent using Twilio.
 
@@ -58,6 +58,16 @@ This Python script uses the OpenWeatherMap API to check the weather forecast for
    ```
 2. If rain is expected, the script will send an SMS notification to the verified phone number.
 
+## Example Output
+If rain is expected:
+   ```bash
+   Message sent! Status: queued
+   ```
+If no rain is expected:
+   ```bash
+   No rain expected today.
+   ```
 
-
-   
+## Error Handling
+- The script validates the API responses and raises an exception if an error occurs.
+- Includes error handling for Twilio's SMS sending process.  
