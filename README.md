@@ -71,3 +71,6 @@ If no rain is expected:
 ## Error Handling
 - The script validates the API responses and raises an exception if an error occurs.
 - Includes error handling for Twilio's SMS sending process.  
+
+## License
+This project is created for educational purpose.
